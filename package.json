@@ -1,7 +1,7 @@
 {
 	"name": "pkg-name",
 	"version": "0.0.0",
-	"packageManager": "pnpm@10.12.4",
+	"packageManager": "pnpm@10.20.0",
 	"author": "Ray <i@mk1.io> (@so1ve)",
 	"description": "",
 	"keywords": [],
@@ -35,23 +35,21 @@
 		"lint:fix": "eslint . --fix && prettier . --write",
 		"prepublishOnly": "nr build",
 		"release": "bumpp --commit --push --tag && pnpm publish",
-		"start": "tsx src/index.ts",
 		"test": "vitest",
 		"typecheck": "tsc --noEmit",
 		"watch": "tsdown --watch"
 	},
 	"devDependencies": {
-		"@antfu/ni": "^25.0.0",
-		"@so1ve/eslint-config": "^3.5.3",
-		"@so1ve/prettier-config": "^3.5.3",
-		"@types/node": "^24.0.10",
-		"bumpp": "^10.2.0",
-		"eslint": "^9.30.1",
+		"@antfu/ni": "^27.0.1",
+		"@so1ve/eslint-config": "^3.11.2",
+		"@so1ve/prettier-config": "^3.11.2",
+		"@types/node": "^24.9.2",
+		"bumpp": "^10.3.1",
+		"eslint": "^9.38.0",
 		"prettier": "^3.6.2",
-		"tsdown": "^0.12.9",
-		"tsx": "^4.20.3",
-		"typescript": "^5.8.3",
-		"vite": "^7.0.2",
-		"vitest": "^3.2.4"
+		"tsdown": "^0.15.11",
+		"typescript": "^5.9.3",
+		"vite": "^7.1.12",
+		"vitest": "^4.0.5"
 	}
 }
