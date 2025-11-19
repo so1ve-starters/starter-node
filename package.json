@@ -1,7 +1,7 @@
 {
 	"name": "pkg-name",
 	"version": "0.0.0",
-	"packageManager": "pnpm@10.20.0",
+	"packageManager": "pnpm@10.22.0",
 	"author": "Ray <i@mk1.io> (@so1ve)",
 	"type": "module",
 	"description": "",
@@ -48,16 +48,16 @@
 	},
 	"devDependencies": {
 		"@antfu/ni": "^27.0.1",
-		"@so1ve/eslint-config": "^3.11.2",
-		"@so1ve/prettier-config": "^3.11.2",
-		"@types/node": "^24.9.2",
+		"@so1ve/eslint-config": "^3.11.4",
+		"@so1ve/prettier-config": "^3.11.4",
+		"@types/node": "^24.10.1",
 		"@typescript/native-preview": "7.0.0-dev.20251029.1",
 		"bumpp": "^10.3.1",
-		"eslint": "^9.38.0",
+		"eslint": "^9.39.1",
 		"prettier": "^3.6.2",
-		"tsdown": "^0.15.11",
+		"tsdown": "^0.16.5",
 		"typescript": "^5.9.3",
-		"vite": "^7.1.12",
-		"vitest": "^4.0.5"
+		"vite": "^7.2.2",
+		"vitest": "^4.0.10"
 	}
 }
