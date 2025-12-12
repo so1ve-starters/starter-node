@@ -5,4 +5,5 @@ on:
 
 jobs:
   release-commit:
+    if: github.repository_owner != "so1ve-starters"
     uses: so1ve/workflows/.github/workflows/release-commit.yml@v1
