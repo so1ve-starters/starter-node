@@ -3,5 +3,5 @@
   "compilerOptions": {
     "allowImportingTsExtensions": true
   },
-  "include": ["test", "tsdown.config.ts", "vite.config.ts"]
+  "include": ["src", "test", "tsdown.config.ts", "vite.config.ts"]
 }
